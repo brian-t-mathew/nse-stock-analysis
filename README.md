@@ -4,7 +4,6 @@
 An end-to-end SQL analysis of three major Nifty 50 stocks —
 ICICI Bank, Reliance Industries, and TCS — benchmarked against
 the Nifty 50 index across the full fiscal year (April 2024 – March 2025).
-
 The project follows a professional analyst workflow: raw data ingestion,
 data cleaning, corporate action adjustment, and multi-dimensional analysis
 culminating in a structured investment brief.
@@ -18,6 +17,11 @@ culminating in a structured investment brief.
 - Does high trading volume correlate with price movement?
 - How did each stock perform relative to the Nifty 50 benchmark?
 - What does VWAP tell us about buying and selling pressure each month?
+
+---
+
+## 📊 Dashboard Preview
+![NSE Stock Performance Dashboard](dashboard.png)
 
 ---
 
@@ -42,20 +46,15 @@ culminating in a structured investment brief.
 - **ICICI Bank** was the standout performer — delivering +22.62% with the
   lowest volatility (5.86%), outperforming the Nifty 50 by ~18 percentage
   points. A textbook example of strong risk-adjusted returns.
-
 - **Reliance and TCS** both underperformed the index, suggesting sector-specific
   headwinds in energy and IT respectively during FY25.
-
 - **October 2024** marked a broad market correction — all stocks and the index
   fell simultaneously, consistent with heavy FII outflows during that period.
-
 - **February 2025** was the worst month of the year — TCS fell 14.48% in a
   single month while the Nifty 50 dropped 5.78%.
-
 - **A 1:1 Bonus Issue** was identified in Reliance on October 28, 2024. All
   pre-split prices were adjusted by dividing by 2 to ensure accurate
   year-on-year comparisons.
-
 - **March 2025** showed strong recovery across all stocks — ICICI leading at
   +11.78% — suggesting the correction phase may be ending.
 
@@ -83,7 +82,7 @@ culminating in a structured investment brief.
 - **Database:** PostgreSQL 17
 - **Query Interface:** pgAdmin 4
 - **Command Line:** psql (for data import)
-- **Visualization:** Power BI *(coming soon)*
+- **Visualization:** Power BI Desktop
 - **Data Source:** NSE India
 
 ---
